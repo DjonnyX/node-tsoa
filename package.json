@@ -1,6 +1,10 @@
 {
-  "name": "ticket-squid-server",
-  "version": "1.0.0",
+  "name": "node-ts-swagger",
+  "version": "0.0.3",
+  "author": {
+    "email": "djonnyx@gmail.com",
+    "name": "Eugene Grebennikov"
+  },
   "description": "",
   "scripts": {
     "start": "node ./build/main.js",
@@ -9,7 +13,6 @@
     "gendoc": "tsoa routes && tsoa swagger",
     "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
